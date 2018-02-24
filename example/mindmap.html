@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+
+}
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   overflow: hidden;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+footer {
+  
+    background-color: black;
+    color:white;
+    text-align: center;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:20px;   /* Height of the footer */
+}  
+
+.left {
+    float: left;
+}
+.w50 {
+    width: 50%;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>BrainStorm</h1>
+    </header>
+    
+    <div class="left w50" >
+      <h2>Enter Text To Summarize!</h2>
+     <form > <!--action="/action_page.php"-->
+     <textarea name="message" placeholder="Enter Text here..." rows="25" cols="75"></textarea>
+     <br>
+     <a href="helloworld.html"><button>Create Mind Map</button></a>
+    <!--<input type="submit" value=" Create Mind Map" >-->
+    <input type="submit" value="Generate Summary" >
+</form>
+
+    </div>
+        
+
+
+
+    <div class="right w100">
+      <h2>Mind Map/Summary:</h2>
+
+      
+
+
+    </div>
+    
+
+
+
+<footer>
+Copyright &copy; Basharat and Ishtiaq
+</footer>
+
+</div>
+
+</body>
+</html>
